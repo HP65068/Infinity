@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="场景">
+      <UniqueIdentifier>{c6664507-a3ec-45ee-8706-cb25cf9f7876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="角色">
+      <UniqueIdentifier>{13051b85-ea62-4836-81be-6caab17804c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="子弹">
+      <UniqueIdentifier>{11a95e75-8393-450c-8194-20924bacde1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>角色</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseScene.cpp">
+      <Filter>场景</Filter>
+    </ClCompile>
+    <ClCompile Include="HallScene.cpp">
+      <Filter>场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Init.cpp">
+      <Filter>场景</Filter>
+    </ClCompile>
+    <ClCompile Include="PlTank.cpp">
+      <Filter>角色</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="PlBullet.cpp">
+      <Filter>子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>角色</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <Filter>子弹</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tank.h">
+      <Filter>角色</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseScene.h">
+      <Filter>场景</Filter>
+    </ClInclude>
+    <ClInclude Include="HallScene.h">
+      <Filter>场景</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Init.h">
+      <Filter>场景</Filter>
+    </ClInclude>
+    <ClInclude Include="PlTank.h">
+      <Filter>角色</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="PlBullet.h">
+      <Filter>子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>角色</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Infinity.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\music\Energy Drink.wav" />
+    <Media Include="res\music\plb.wav" />
+    <Media Include="res\music\hurt.wav" />
+    <Media Include="res\music\button.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\image\pltank.png" />
+    <Image Include="res\image\board.png" />
+    <Image Include="res\image\init.jpg" />
+    <Image Include="res\image\plbullet.png" />
+    <Image Include="res\image\hp.jpg" />
+    <Image Include="res\image\enemy.png" />
+    <Image Include="res\image\enemyBullet.png" />
+    <Image Include="res\image\start.png" />
+    <Image Include="res\image\g.ico" />
+  </ItemGroup>
+</Project>
